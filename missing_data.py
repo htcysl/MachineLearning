@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data = pd.read_csv('eksikveriler.csv') 
-
+# (2)
 from sklearn.impute import SimpleImputer
 
 imputer = SimpleImputer(missing_values=np.nan,strategy='mean') 
